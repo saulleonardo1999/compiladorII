@@ -1,0 +1,13 @@
+program{
+int a,a,b,c,d;
+write y;
+read y;
+a=2;
+write x;
+if(2+2){
+read y;
+}
+else
+{read z;
+}fi
+}

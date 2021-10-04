@@ -1,0 +1,42 @@
+  Program  (li.1)
+    Declaration int (li.2)
+      Id: x (li.2) VALOR: 
+      Id: y (li.2) VALOR: 
+    Declaration float (li.3)
+      Id: a (li.3) VALOR: 
+      Id: b (li.3) VALOR: 
+      Id: c (li.3) VALOR: 
+    Assign to: x (li.4) VALOR: 5
+      Num: 5 (li.4)
+    Assign to: y (li.5) VALOR: 4
+      Num: 4 (li.5)
+    Assign to: a (li.6) VALOR: 0.0
+      Num: 0.0 (li.6)
+    Assign to: b (li.7) VALOR: 3.5
+      Num: 3.5 (li.7)
+    Assign to: c (li.8) VALOR: 8.5
+      Op: PLUS (li.8) VALOR: 8.5
+        Id: x (li.8) VALOR: 5
+        Id: b (li.8) VALOR: 3.5
+    If  (li.9) VALOR: False
+      Op: LT (li.9) VALOR: False
+        Id: x (li.9) VALOR: 5
+        Id: y (li.9) VALOR: 4
+      Bloque (li.9)
+        Assign to: y (li.10) VALOR: 3
+          Op: MINUS (li.10) VALOR: 3
+            Id: y (li.10) VALOR: 4
+            Num: 1 (li.10)
+      Bloque (li.11)
+        Assign to: x (li.12) VALOR: 3
+          Op: MINUS (li.12) VALOR: 3
+            Id: x (li.12) VALOR: 5
+            Num: 2 (li.12)
+        Assign to: a (li.13) VALOR: 6.5
+          Op: PLUS (li.13) VALOR: 6.5
+            Id: x (li.13) VALOR: 3
+            Id: b (li.13) VALOR: 3.5
+        Assign to: y (li.14) VALOR: 2
+          Op: MINUS (li.14) VALOR: 2
+            Id: y (li.14) VALOR: 3
+            Num: 1 (li.14)

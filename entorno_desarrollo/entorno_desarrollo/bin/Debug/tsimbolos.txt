@@ -1,0 +1,15 @@
+x
+INT
+3
+y
+INT
+2
+a
+FLOAT
+6.5
+b
+FLOAT
+3.5
+c
+FLOAT
+8.5
