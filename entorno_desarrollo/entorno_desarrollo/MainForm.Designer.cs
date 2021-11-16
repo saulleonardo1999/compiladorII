@@ -76,10 +76,12 @@ namespace Entorno_desarrollo
 			this.Errores = new System.Windows.Forms.TabControl();
 			this.ventana_error = new System.Windows.Forms.TabPage();
 			this.errores_a = new System.Windows.Forms.RichTextBox();
+			this.codigoIntermedio_a = new System.Windows.Forms.RichTextBox();
 			this.ventana_resultado = new System.Windows.Forms.TabPage();
 			this.o = new System.Windows.Forms.TabControl();
 			this.semantico = new System.Windows.Forms.TabPage();
 			this.treeSemantico = new System.Windows.Forms.TreeView();
+			this.treeCodIntermedio = new System.Windows.Forms.TreeView();
 			this.cod_intermedio = new System.Windows.Forms.TabPage();
 			this.lineas = new System.Windows.Forms.Label();
 			this.posicion = new System.Windows.Forms.Label();
@@ -96,6 +98,7 @@ namespace Entorno_desarrollo
 			this.ventana_error.SuspendLayout();
 			this.o.SuspendLayout();
 			this.semantico.SuspendLayout();
+			this.cod_intermedio.SuspendLayout();
 			this.sintactico.SuspendLayout();
 			this.lexico.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.tabla)).BeginInit();
@@ -544,6 +547,15 @@ namespace Entorno_desarrollo
 			this.errores_a.Size = new System.Drawing.Size(538, 134);
 			this.errores_a.TabIndex = 0;
 			this.errores_a.Text = "";
+
+			// 
+			// codigoIntermedio_a
+			// 
+			this.codigoIntermedio_a.Location = new System.Drawing.Point(-2, -2);
+			this.codigoIntermedio_a.Name = "codigoIntermedio_a";
+			this.codigoIntermedio_a.Size = new System.Drawing.Size(538, 200);
+			this.codigoIntermedio_a.TabIndex = 0;
+			this.codigoIntermedio_a.Text = "";
 			// 
 			// ventana_resultado
 			// 
@@ -594,13 +606,15 @@ namespace Entorno_desarrollo
 			// cod_intermedio
 			// 
 			this.cod_intermedio.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.cod_intermedio.Controls.Add(this.codigoIntermedio_a);
 			this.cod_intermedio.Location = new System.Drawing.Point(4, 22);
 			this.cod_intermedio.Name = "cod_intermedio";
 			this.cod_intermedio.Padding = new System.Windows.Forms.Padding(3);
 			this.cod_intermedio.Size = new System.Drawing.Size(315, 217);
-			this.cod_intermedio.TabIndex = 1;
+			this.cod_intermedio.TabIndex = 10;
 			this.cod_intermedio.Text = "Codigo Intermedio";
 			this.cod_intermedio.UseVisualStyleBackColor = true;
+
 			// 
 			// lineas
 			// 
@@ -740,6 +754,7 @@ namespace Entorno_desarrollo
 			this.o.ResumeLayout(false);
 			this.semantico.ResumeLayout(false);
 			this.sintactico.ResumeLayout(false);
+			this.cod_intermedio.ResumeLayout(false);
 			this.lexico.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.tabla)).EndInit();
 			this.tabControl1.ResumeLayout(false);
@@ -749,10 +764,12 @@ namespace Entorno_desarrollo
 			this.PerformLayout();
 		}
 		public System.Windows.Forms.TreeView treeSemantico;
+		public System.Windows.Forms.TreeView treeCodIntermedio;
 		private System.Windows.Forms.DataGridView tabla_simbolos;
 		private System.Windows.Forms.TabPage tabPage1;
 		public System.Windows.Forms.TreeView tree;
 		private System.Windows.Forms.RichTextBox errores_a;
+		private System.Windows.Forms.RichTextBox codigoIntermedio_a;
 		private System.Windows.Forms.DataGridView tabla;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Button l_eliminar;

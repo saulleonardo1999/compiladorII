@@ -1,10 +1,10 @@
 program
-Identificador
+keyword
 {
 LLave que abre
 int
 keyword
-x
+x1
 Identificador
 ,
 Coma
@@ -20,13 +20,9 @@ Identificador
 Coma
 b
 Identificador
-,
-Coma
-c
-Identificador
 ;
 Delimitador
-x
+x1
 Identificador
 =
 Simbolo Asignacion
@@ -54,27 +50,15 @@ b
 Identificador
 =
 Simbolo Asignacion
-3.5
+3.0
 Numero
-;
-Delimitador
-c
-Identificador
-=
-Simbolo Asignacion
-x
-Identificador
-+
-Operador Suma
-b
-Identificador
 ;
 Delimitador
 if
 keyword
 (
 Parentesis que abre
-x
+x1
 Identificador
 <
 Comparacion Menor que
@@ -102,11 +86,11 @@ else
 keyword
 {
 LLave que abre
-x
+x1
 Identificador
 =
 Simbolo Asignacion
-x
+x1
 Identificador
 -
 Operador Resta
@@ -118,7 +102,11 @@ a
 Identificador
 =
 Simbolo Asignacion
-x
+a
+Identificador
+*
+Operador Multiplicacion
+x1
 Identificador
 +
 Operador Suma

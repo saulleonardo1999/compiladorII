@@ -77,3 +77,12 @@ C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_des
 C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_desarrollo\obj\Debug\Entorno_desarrollo.csproj.CoreCompileInputs.cache
 C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_desarrollo\obj\Debug\Entorno_desarrollo.exe
 C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_desarrollo\obj\Debug\Entorno_desarrollo.pdb
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\bin\Debug\Entorno_desarrollo.exe
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\bin\Debug\Entorno_desarrollo.pdb
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\obj\Debug\Entorno_desarrollo.csproj.AssemblyReference.cache
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\obj\Debug\Entorno_desarrollo.Imagenes.resources
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\obj\Debug\Entorno_desarrollo.MainForm.resources
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\obj\Debug\Entorno_desarrollo.csproj.GenerateResource.cache
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\obj\Debug\Entorno_desarrollo.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\obj\Debug\Entorno_desarrollo.exe
+C:\Users\sebas\Desktop\Universidad\Compiladores\compiladorII\entorno_desarrollo\entorno_desarrollo\obj\Debug\Entorno_desarrollo.pdb

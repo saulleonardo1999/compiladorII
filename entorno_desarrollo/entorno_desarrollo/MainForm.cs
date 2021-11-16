@@ -14,10 +14,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Diagnostics;
 using System.IO;
 using System.Collections;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Entorno_desarrollo
 {
@@ -34,6 +36,10 @@ namespace Entorno_desarrollo
 		private Color c_2;// color para los identificadores int,float,etc..
 		private Color c_3;// color para los  comentarios
 		public int pos;
+        public int t_index;
+        public int loop_index;
+        public string current_t;
+        public StreamWriter wf;
 		public MainForm()
 		{
 			InitializeComponent();
@@ -344,6 +350,7 @@ namespace Entorno_desarrollo
 			posicion.Text = "Longitud: "+codigo.Text.Length +" Ln: "+(line+1) +" Col: "+(col+1); // actualizamos la etiqueta que nos muestra la informacion		
 		}
 		
+
 		
 		void CodigoKeyUp(object sender, KeyEventArgs e)
 		{
@@ -768,6 +775,7 @@ namespace Entorno_desarrollo
 		{
 //			GuardarToolStripMenuItemClick(sender,e);// mismo funcionamiento que Guardar
 			errores_a.Text="";
+			codigoIntermedio_a.Text="";
 			// con este codigo eliminamos los comentarios
 			string palabra ="";
 			for(int i=0; i< codigo.Text.Length; i++){
@@ -797,6 +805,16 @@ namespace Entorno_desarrollo
 			p.StartInfo.Arguments="/C  analisis_sintactico_semantico"; // LE decimos que archivo ejectuar y los argumentos
 			p.Start();// iniciamos la consola
 			p.WaitForExit(); // esperamos a que termine la consola, para mostrar los resultados
+
+			string YourApplicationPath = "C:/Users/sebas/Downloads/Compiladores_I/Compiladores_I/compilador/compilador/bin/Debug/netcoreapp3.1/compilador.exe";			
+			p.StartInfo.WorkingDirectory = Path.GetDirectoryName(YourApplicationPath);
+			p.StartInfo.FileName="cmd.exe"; // ejecutaremos una consola
+			p.StartInfo.Arguments="/c "+ Path.GetFileName(YourApplicationPath)+ " program.txt"; // LE decimos que archivo ejectuar y los argumentos
+			p.Start();// iniciamos la consola
+			p.WaitForExit(); // esperamos a que termine la consola, para mostrar los resultados
+
+			
+			 // esperamos a que termine la consola, para mostrar los resultados
 			
 			string []lines = File.ReadAllLines("arbol_sintacto.txt");
 			string []l_e = File.ReadAllLines("line_errores.txt");
@@ -804,6 +822,10 @@ namespace Entorno_desarrollo
 			string []errores = File.ReadAllLines("errores_sintacto.txt");
 			for(int i=0;i<errores.Length;i++)
 				errores_a.Text+=errores[i]+"\n";
+
+			string []codigoI = File.ReadAllLines("codigoIntermedio.txt");
+			for(int i=0;i<codigoI.Length;i++)
+				codigoIntermedio_a.Text+=codigoI[i]+"\n";
 			
 			tree.Nodes.Clear();
 			tree.BeginUpdate();
@@ -812,8 +834,7 @@ namespace Entorno_desarrollo
 			tree.Nodes.Add(node);
 			tree.EndUpdate();
 
-			
-			
+				
 			string []lines2 = File.ReadAllLines("arbol_semantico.txt");
 			treeSemantico.Nodes.Clear();
 			treeSemantico.BeginUpdate();
@@ -821,8 +842,7 @@ namespace Entorno_desarrollo
 			node = make_tree(lines2,4);
 			treeSemantico.Nodes.Add(node);
 			treeSemantico.EndUpdate();
-			
-			
+
 			pintaerror =2;
 			int last = -1;
 			for(int i=0; i< l_e.Length;i++){
@@ -955,6 +975,10 @@ namespace Entorno_desarrollo
 		
 		void L_compilarClick(object sender, EventArgs e)
 		{
+            File.Delete("C:/Users/sebas/Downloads/Compiladores_I/Compiladores_I/compilador/compilador/bin/Debug/netcoreapp3.1/program.txt");
+			StreamWriter objWriter = new StreamWriter("C:/Users/sebas/Downloads/Compiladores_I/Compiladores_I/compilador/compilador/bin/Debug/netcoreapp3.1/program.txt"); // objeto para abrir un archivo en modo escritura
+            objWriter.Write(codigo.Text);
+            objWriter.Close();
 			CompilarToolStripMenuItem1Click(sender,e);
 		}
 		

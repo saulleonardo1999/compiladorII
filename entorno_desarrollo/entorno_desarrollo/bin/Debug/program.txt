@@ -1,13 +1,15 @@
-program{
-int a,a,b,c,d;
-write y;
-read y;
-a=2;
-write x;
-if(2+2){
-read y;
-}
-else
-{read z;
+program {
+int x, y;
+float s, g;
+x=5;
+y=4;
+s=0.0;
+g=3.0;
+if(x<y) {
+y=y-1;
+} else {
+x=x-2;
+s=s*x+g;
+y=y-1;
 }fi
 }
