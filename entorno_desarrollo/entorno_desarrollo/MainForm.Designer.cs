@@ -304,7 +304,6 @@ namespace Entorno_desarrollo
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.SkyBlue;
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.l_compilar);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.l_eliminar);
             this.panel1.Controls.Add(this.l_pegar);
@@ -328,7 +327,7 @@ namespace Entorno_desarrollo
             this.l_compilar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.l_compilar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.l_compilar.ForeColor = System.Drawing.Color.Transparent;
-            this.l_compilar.Location = new System.Drawing.Point(73, 4);
+            this.l_compilar.Location = new System.Drawing.Point(119, 1);
             this.l_compilar.Name = "l_compilar";
             this.l_compilar.Size = new System.Drawing.Size(21, 20);
             this.l_compilar.TabIndex = 18;
@@ -747,6 +746,7 @@ namespace Entorno_desarrollo
             this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 19;
             this.label4.Text = "Compilar ";
+            this.label4.Visible = false;
             // 
             // MainForm
             // 
@@ -756,6 +756,7 @@ namespace Entorno_desarrollo
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1062, 587);
             this.Controls.Add(this.posicion);
+            this.Controls.Add(this.l_compilar);
             this.Controls.Add(this.lineas);
             this.Controls.Add(this.o);
             this.Controls.Add(this.tabControl1);
