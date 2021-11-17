@@ -987,5 +987,10 @@ namespace Entorno_desarrollo
 		{
 			
 		}
-	}
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
