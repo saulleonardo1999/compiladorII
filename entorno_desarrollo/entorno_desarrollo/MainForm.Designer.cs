@@ -92,6 +92,7 @@ namespace Entorno_desarrollo
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabla_simbolos = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.Errores.SuspendLayout();
@@ -137,35 +138,35 @@ namespace Entorno_desarrollo
             // nuevoToolStripMenuItem
             // 
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
             this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.NuevoToolStripMenuItemClick);
             // 
             // abrirToolStripMenuItem
             // 
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.abrirToolStripMenuItem.Text = "Abrir";
             this.abrirToolStripMenuItem.Click += new System.EventHandler(this.AbrirToolStripMenuItemClick);
             // 
             // guardarToolStripMenuItem
             // 
             this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
-            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.guardarToolStripMenuItem.Text = "Guardar";
             this.guardarToolStripMenuItem.Click += new System.EventHandler(this.GuardarToolStripMenuItemClick);
             // 
             // guardarComoToolStripMenuItem
             // 
             this.guardarComoToolStripMenuItem.Name = "guardarComoToolStripMenuItem";
-            this.guardarComoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.guardarComoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.guardarComoToolStripMenuItem.Text = "Guardar Como";
             this.guardarComoToolStripMenuItem.Click += new System.EventHandler(this.GuardarComoToolStripMenuItemClick);
             // 
             // cerrarToolStripMenuItem
             // 
             this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
-            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cerrarToolStripMenuItem.Text = "Cerrar";
             this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.CerrarToolStripMenuItemClick);
             // 
@@ -183,28 +184,28 @@ namespace Entorno_desarrollo
             // cortarToolStripMenuItem
             // 
             this.cortarToolStripMenuItem.Name = "cortarToolStripMenuItem";
-            this.cortarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cortarToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.cortarToolStripMenuItem.Text = "Cortar     Ctrl + X";
             this.cortarToolStripMenuItem.Click += new System.EventHandler(this.CortarToolStripMenuItemClick);
             // 
             // copiarCtrlCToolStripMenuItem
             // 
             this.copiarCtrlCToolStripMenuItem.Name = "copiarCtrlCToolStripMenuItem";
-            this.copiarCtrlCToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.copiarCtrlCToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.copiarCtrlCToolStripMenuItem.Text = "Copiar     Ctrl + C";
             this.copiarCtrlCToolStripMenuItem.Click += new System.EventHandler(this.CopiarCtrlCToolStripMenuItemClick);
             // 
             // pegarCtrlVToolStripMenuItem
             // 
             this.pegarCtrlVToolStripMenuItem.Name = "pegarCtrlVToolStripMenuItem";
-            this.pegarCtrlVToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pegarCtrlVToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.pegarCtrlVToolStripMenuItem.Text = "Pegar      Ctrl + V";
             this.pegarCtrlVToolStripMenuItem.Click += new System.EventHandler(this.PegarCtrlVToolStripMenuItemClick);
             // 
             // borrarDelToolStripMenuItem
             // 
             this.borrarDelToolStripMenuItem.Name = "borrarDelToolStripMenuItem";
-            this.borrarDelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.borrarDelToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.borrarDelToolStripMenuItem.Text = "Borrar      Del";
             this.borrarDelToolStripMenuItem.Click += new System.EventHandler(this.BorrarDelToolStripMenuItemClick);
             // 
@@ -224,35 +225,35 @@ namespace Entorno_desarrollo
             // colorFondoToolStripMenuItem
             // 
             this.colorFondoToolStripMenuItem.Name = "colorFondoToolStripMenuItem";
-            this.colorFondoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorFondoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.colorFondoToolStripMenuItem.Text = "Color Fondo";
             this.colorFondoToolStripMenuItem.Click += new System.EventHandler(this.ColorFondoToolStripMenuItemClick);
             // 
             // colorTextoToolStripMenuItem
             // 
             this.colorTextoToolStripMenuItem.Name = "colorTextoToolStripMenuItem";
-            this.colorTextoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorTextoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.colorTextoToolStripMenuItem.Text = "Color Texto";
             this.colorTextoToolStripMenuItem.Click += new System.EventHandler(this.ColorTextoToolStripMenuItemClick);
             // 
             // colorLetras1ToolStripMenuItem
             // 
             this.colorLetras1ToolStripMenuItem.Name = "colorLetras1ToolStripMenuItem";
-            this.colorLetras1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorLetras1ToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.colorLetras1ToolStripMenuItem.Text = "Color Letras 1";
             this.colorLetras1ToolStripMenuItem.Click += new System.EventHandler(this.ColorLetras1ToolStripMenuItemClick);
             // 
             // colorLetras2ToolStripMenuItem
             // 
             this.colorLetras2ToolStripMenuItem.Name = "colorLetras2ToolStripMenuItem";
-            this.colorLetras2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorLetras2ToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.colorLetras2ToolStripMenuItem.Text = "Color Letras 2";
             this.colorLetras2ToolStripMenuItem.Click += new System.EventHandler(this.ColorLetras2ToolStripMenuItemClick);
             // 
             // colorComentariosToolStripMenuItem
             // 
             this.colorComentariosToolStripMenuItem.Name = "colorComentariosToolStripMenuItem";
-            this.colorComentariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorComentariosToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.colorComentariosToolStripMenuItem.Text = "Color Comentarios";
             this.colorComentariosToolStripMenuItem.Click += new System.EventHandler(this.ColorComentariosToolStripMenuItemClick);
             // 
@@ -263,11 +264,12 @@ namespace Entorno_desarrollo
             this.compilarToolStripMenuItem.Name = "compilarToolStripMenuItem";
             this.compilarToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.compilarToolStripMenuItem.Text = "Compilar";
+            this.compilarToolStripMenuItem.Visible = false;
             // 
             // compilarToolStripMenuItem1
             // 
             this.compilarToolStripMenuItem1.Name = "compilarToolStripMenuItem1";
-            this.compilarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.compilarToolStripMenuItem1.Size = new System.Drawing.Size(123, 22);
             this.compilarToolStripMenuItem1.Text = "Compilar";
             this.compilarToolStripMenuItem1.Click += new System.EventHandler(this.CompilarToolStripMenuItem1Click);
             // 
@@ -285,14 +287,14 @@ namespace Entorno_desarrollo
             // 
             this.ayudaToolStripMenuItem1.Image = global::Entorno_desarrollo.Imagenes.ayuda;
             this.ayudaToolStripMenuItem1.Name = "ayudaToolStripMenuItem1";
-            this.ayudaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.ayudaToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
             this.ayudaToolStripMenuItem1.Text = "Ayuda";
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Image = global::Entorno_desarrollo.Imagenes.acerca;
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de ...";
             // 
             // panel1
@@ -300,7 +302,8 @@ namespace Entorno_desarrollo
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSize = true;
-            this.panel1.BackColor = System.Drawing.Color.Snow;
+            this.panel1.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.l_compilar);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.l_eliminar);
@@ -317,7 +320,6 @@ namespace Entorno_desarrollo
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1062, 29);
             this.panel1.TabIndex = 1;
-            this.panel1.Visible = false;
             // 
             // l_compilar
             // 
@@ -326,7 +328,7 @@ namespace Entorno_desarrollo
             this.l_compilar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.l_compilar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.l_compilar.ForeColor = System.Drawing.Color.Transparent;
-            this.l_compilar.Location = new System.Drawing.Point(223, 4);
+            this.l_compilar.Location = new System.Drawing.Point(73, 4);
             this.l_compilar.Name = "l_compilar";
             this.l_compilar.Size = new System.Drawing.Size(21, 20);
             this.l_compilar.TabIndex = 18;
@@ -345,6 +347,7 @@ namespace Entorno_desarrollo
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(13, 19);
             this.label3.TabIndex = 17;
+            this.label3.Visible = false;
             // 
             // l_eliminar
             // 
@@ -359,6 +362,7 @@ namespace Entorno_desarrollo
             this.l_eliminar.TabIndex = 16;
             this.l_eliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.l_eliminar.UseVisualStyleBackColor = false;
+            this.l_eliminar.Visible = false;
             this.l_eliminar.Click += new System.EventHandler(this.L_eliminarClick);
             this.l_eliminar.MouseEnter += new System.EventHandler(this.L_eliminarMouseEnter);
             this.l_eliminar.MouseLeave += new System.EventHandler(this.L_eliminarMouseLeave);
@@ -376,6 +380,7 @@ namespace Entorno_desarrollo
             this.l_pegar.TabIndex = 15;
             this.l_pegar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.l_pegar.UseVisualStyleBackColor = false;
+            this.l_pegar.Visible = false;
             this.l_pegar.Click += new System.EventHandler(this.L_pegarClick);
             this.l_pegar.MouseEnter += new System.EventHandler(this.L_pegarMouseEnter);
             this.l_pegar.MouseLeave += new System.EventHandler(this.L_pegarMouseLeave);
@@ -393,6 +398,7 @@ namespace Entorno_desarrollo
             this.l_copiar.TabIndex = 14;
             this.l_copiar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.l_copiar.UseVisualStyleBackColor = false;
+            this.l_copiar.Visible = false;
             this.l_copiar.Click += new System.EventHandler(this.L_copiarClick);
             this.l_copiar.MouseEnter += new System.EventHandler(this.L_copiarMouseEnter);
             this.l_copiar.MouseLeave += new System.EventHandler(this.L_copiarMouseLeave);
@@ -410,6 +416,7 @@ namespace Entorno_desarrollo
             this.l_cortar.TabIndex = 13;
             this.l_cortar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.l_cortar.UseVisualStyleBackColor = false;
+            this.l_cortar.Visible = false;
             this.l_cortar.Click += new System.EventHandler(this.L_cortarClick);
             this.l_cortar.MouseEnter += new System.EventHandler(this.L_cortarMouseEnter);
             this.l_cortar.MouseLeave += new System.EventHandler(this.L_cortarMouseLeave);
@@ -427,6 +434,7 @@ namespace Entorno_desarrollo
             this.l_guardar.TabIndex = 12;
             this.l_guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.l_guardar.UseVisualStyleBackColor = false;
+            this.l_guardar.Visible = false;
             this.l_guardar.Click += new System.EventHandler(this.L_guardarClick);
             this.l_guardar.MouseEnter += new System.EventHandler(this.L_guardarMouseEnter);
             this.l_guardar.MouseLeave += new System.EventHandler(this.L_guardarMouseLeave);
@@ -444,6 +452,7 @@ namespace Entorno_desarrollo
             this.l_abrir.TabIndex = 11;
             this.l_abrir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.l_abrir.UseVisualStyleBackColor = false;
+            this.l_abrir.Visible = false;
             this.l_abrir.Click += new System.EventHandler(this.L_abrirClick);
             this.l_abrir.MouseEnter += new System.EventHandler(this.L_abrirMouseEnter);
             this.l_abrir.MouseLeave += new System.EventHandler(this.L_abrirMouseLeave);
@@ -461,6 +470,7 @@ namespace Entorno_desarrollo
             this.l_nuevo.TabIndex = 10;
             this.l_nuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.l_nuevo.UseVisualStyleBackColor = false;
+            this.l_nuevo.Visible = false;
             this.l_nuevo.Click += new System.EventHandler(this.L_nuevoClick);
             this.l_nuevo.MouseEnter += new System.EventHandler(this.L_nuevoMouseEnter);
             this.l_nuevo.MouseLeave += new System.EventHandler(this.L_nuevoMouseLeave);
@@ -474,6 +484,7 @@ namespace Entorno_desarrollo
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(13, 19);
             this.label2.TabIndex = 8;
+            this.label2.Visible = false;
             // 
             // label1
             // 
@@ -497,10 +508,10 @@ namespace Entorno_desarrollo
             // 
             this.codigo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.codigo.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.codigo.Location = new System.Drawing.Point(40, 29);
+            this.codigo.Location = new System.Drawing.Point(40, 66);
             this.codigo.Name = "codigo";
             this.codigo.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.codigo.Size = new System.Drawing.Size(518, 378);
+            this.codigo.Size = new System.Drawing.Size(518, 341);
             this.codigo.TabIndex = 3;
             this.codigo.Text = "";
             this.codigo.VScroll += new System.EventHandler(this.CodigoVScroll);
@@ -620,10 +631,10 @@ namespace Entorno_desarrollo
             // lineas
             // 
             this.lineas.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lineas.Location = new System.Drawing.Point(0, 29);
+            this.lineas.Location = new System.Drawing.Point(3, 65);
             this.lineas.Margin = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.lineas.Name = "lineas";
-            this.lineas.Size = new System.Drawing.Size(34, 378);
+            this.lineas.Size = new System.Drawing.Size(34, 342);
             this.lineas.TabIndex = 7;
             this.lineas.Text = "1\r\n2\r\n3\r\n4\r\n5\r\n6\r\n7\r\n8\r\n9\r\n10\r\n11\r\n12\r\n13\r\n14\r\n15\r\n16\r\n17\r\n18\r\n19\r\n20\r\n21\r\n22\r\n23" +
     "\r\n24\r\n25\r\n26\r\n27\r\n28\r\n29\r\n30\r\n31";
@@ -728,12 +739,21 @@ namespace Entorno_desarrollo
             this.tabla_simbolos.Size = new System.Drawing.Size(463, 205);
             this.tabla_simbolos.TabIndex = 10;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(18, 7);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Compilar ";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.PaleGreen;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1062, 587);
             this.Controls.Add(this.posicion);
             this.Controls.Add(this.lineas);
@@ -752,6 +772,7 @@ namespace Entorno_desarrollo
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.Errores.ResumeLayout(false);
             this.ventana_error.ResumeLayout(false);
             this.o.ResumeLayout(false);
@@ -823,6 +844,6 @@ namespace Entorno_desarrollo
 		private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
 		private System.Windows.Forms.MenuStrip menuStrip1;
-	
-	}
+        private System.Windows.Forms.Label label4;
+    }
 }
