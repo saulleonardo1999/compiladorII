@@ -77,3 +77,4 @@ C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_des
 C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_desarrollo\obj\Debug\Entorno_desarrollo.csproj.CoreCompileInputs.cache
 C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_desarrollo\obj\Debug\Entorno_desarrollo.exe
 C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_desarrollo\obj\Debug\Entorno_desarrollo.pdb
+C:\Users\saull\Desktop\Compilador-llto\Compilador\entorno_desarrollo\Entorno_desarrollo\obj\Debug\Entorno_desarrollo.csprojAssemblyReference.cache

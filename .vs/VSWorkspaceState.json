@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\analisis_sintactico_semantico",
+    "\\analisis_sintactico_semantico\\analisis_sintactico_semantico",
+    "\\analisis_sintactico_semantico\\analisis_sintactico_semantico\\bin",
+    "\\analisis_sintactico_semantico\\analisis_sintactico_semantico\\bin\\Debug",
+    "\\a_lexico",
+    "\\entorno_desarrollo",
+    "\\entorno_desarrollo\\entorno_desarrollo",
+    "\\entorno_desarrollo\\entorno_desarrollo\\bin",
+    "\\entorno_desarrollo\\entorno_desarrollo\\obj",
+    "\\entorno_desarrollo\\entorno_desarrollo\\Properties"
+  ],
+  "SelectedNode": "\\entorno_desarrollo\\entorno_desarrollo\\MainForm.cs",
+  "PreviewInSolutionExplorer": false
+}

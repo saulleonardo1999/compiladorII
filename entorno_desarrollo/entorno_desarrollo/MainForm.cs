@@ -1,12 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Ricardo
- * Date: 20/02/2013
- * Time: 05:04 p.m.
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -963,5 +955,15 @@ namespace Entorno_desarrollo
 		{
 			
 		}
-	}
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+    }
 }

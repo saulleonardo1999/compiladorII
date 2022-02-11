@@ -1,12 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Ricardo
- * Date: 20/02/2013
- * Time: 05:04 p.m.
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace Entorno_desarrollo
